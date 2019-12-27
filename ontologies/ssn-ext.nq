@@ -1,0 +1,120 @@
+<http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n13 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/2000/01/rdf-schema#comment> "If values are not provided for the following Observation properties, they may be provided by the ObservationCollection of which it is a member:\n- hasFeatureOfInterest\n- hasUltimateFeatureOfInterest\n- madeBySensor\n- observedProperty\n- phenomenonTime\n- resultTime\n- usedProcedure" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n4 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n11 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://schema.org/domainIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/madeBySensor> <http://schema.org/domainIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/observedProperty> <http://schema.org/domainIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/phenomenonTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/resultTime> <http://schema.org/domainIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/sosa/usedProcedure> <http://schema.org/domainIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of observations, typically with one or more property shared by all of its members" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection of observations" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n0 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n10 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n12 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n14 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n15 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n16 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n18 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n2 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n3 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n5 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n6 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n7 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n8 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n9 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://schema.org/domainIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to a member within a collection of (observations) or (collections of observations) that share the same value for one or more of the characteristic properties" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "member observation" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n1 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#member> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Actuation> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://schema.org/domainIncludes> <http://www.w3.org/ns/sosa/Sampling> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#comment> "link to the ultimate feature of interest of an observation or act of sampling. This is useful when the proximate feature of interest is a sample of the ultimate feature of interest, directly or trasntitively." <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#comment> "should match a property chain something like this but with sosa:isSampleOf*\n      owl:propertyChainAxiom ( sosa:hasFeatureOfInterest sosa:isSampleOf )" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "has ultimate feature of interest" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/isMemberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "indicates a collection of which the context resource is a member" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n17 <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "is member of" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext/isMemberOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext> <http://purl.org/dc/terms/created> "2018-03-08"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext> <http://purl.org/dc/terms/creator> <http://orcid.org/0000-0002-3884-3420> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext> <http://www.w3.org/2000/01/rdf-schema#comment> "Some extensions to the SSN Ontology" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext> <http://www.w3.org/2000/01/rdf-schema#label> "SSN extensions" <http://www.w3.org/ns/ssn/ext/> .
+<http://www.w3.org/ns/ssn/ext> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/ssn/> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n0 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n0 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/ssn/ext/hasMember> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n1 <http://www.w3.org/2002/07/owl#unionOf> _:c14n19 <http://www.w3.org/ns/ssn/ext/> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n10 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/resultTime> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n11 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n13 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n14 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/phenomenonTime> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/ssn/Stimulus> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/ssn/wasOriginatedBy> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n17 <http://www.w3.org/2002/07/owl#unionOf> _:c14n21 <http://www.w3.org/ns/ssn/ext/> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n18 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/usedProcedure> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n20 <http://www.w3.org/ns/ssn/ext/> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n2 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/sosa/Observation> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n22 <http://www.w3.org/ns/ssn/ext/> .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/ssn/ext/ObservationCollection> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/sosa/Procedure> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/usedProcedure> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n5 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n6 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/observedProperty> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/sosa/Sensor> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/madeBySensor> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/ns/ssn/ext/> .
+_:c14n9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/sosa/observedProperty> <http://www.w3.org/ns/ssn/ext/> .
